@@ -1,0 +1,266 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #CBD0D8  , #C2B4D6  , #A0D3F9);
+  /* background-image: linear-gradient(to right,#9F4298  , #D1AFD3 , #E6E7E8); */
+
+  /* background-color: #f9a825; */
+  /* background-color: antiquewhite; */
+  /* background-image: url(images/main.jpg);
+  background-size: 100% 900px; */
+}
+
+/* navbar */
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  background-image: linear-gradient(to right, #CBD0D8  , #C2B4D6  , #A0D3F9);
+  /* background-color: #a79f95; */
+  padding: 8px 12px;
+}
+
+.navbar_logo{
+  width: 40px;
+  height: 40px;
+  margin-left: 70px;
+}
+
+.navbar_menu{
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.navbar_menu li{
+  padding: 8px 50px;
+}
+
+.navbar_menu li:hover{
+  background-color: #d49466;
+  border-radius: 12px;
+}
+
+.navbar_icons li:hover{
+  background-color: black;
+  border-radius: 10px;
+}
+
+.navbar_icons{
+  list-style: none;
+  color: white;
+  display: flex;
+  padding-right: 70px;
+}
+
+.navbar_icons li{
+  padding: 8px 12px;
+}
+
+/* .header_intro{
+  width:auto;
+  height: auto;
+  border: solid;
+} */
+
+.header_intro .header_bg h1{
+  color:black;
+  padding:220px;
+  text-align:center;
+}
+.header_intro .header_bg{
+  margin-top:-20px;
+  height: 500px;
+  filter:brightness(80%);
+  background-image:url('../images/AI_3.jpg');
+  background-size : cover;
+  background-position : center;
+  background-repeat : no-repeat;
+}
+
+.dbody{
+  text-align: center;
+}
+
+.header_intro .what{
+  color:white;
+  letter-spacing: 0.2em;
+  text-align: center;
+  font-size:50px;
+  padding:100px;
+  background-image:url('../images/AI_2.jpg');
+
+}
+
+/* 소개 시작 */
+.intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 2500px;
+  margin: auto;
+}
+
+.intro .card{
+  flex:1;
+  text-align: center;
+  /* margin: 150px 20px; */
+}
+
+.intro .card i{
+  font-size: 70px;
+  color: 444;
+  margin-bottom: 30px;
+}
+
+.intro .card h1{
+  letter-spacing: 0.2em;
+}
+
+.intro .card p{
+  font-size: 15px;
+}
+.intro .card img{
+  width: 400px;
+  height: 330px;
+  border-radius: 10px;
+}
+/* 컨테이너 시작 */
+.service{
+  background: #ddd;
+}
+.service .container{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin:auto;
+}
+
+.service .img{
+  height: 300px;
+}
+
+.service .img img{
+  height: 100%;
+  width: auto;
+}
+
+.service .text{
+  text-align: end;
+  color:#444;
+  padding-left: 100px;
+}
+
+.service .text h1{
+  letter-spacing: 0.2em;
+}
+
+.service .text p{
+  word-wrap: break-word; /* 줄바꿈 발생 시, 단어 단위로 나눠줌*/
+  word-break: keep-all; /* 줄바꿈 발생 시, 단어 단위로 나눠줌*/
+  font-size:12px;
+}
+.service .text button{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-size: 14px;
+  transition: .5s ease;
+}
+
+.service .text button:hover{
+  transition: .5s ease;
+  border: 2px solid black;
+  background: transparent;
+  color: black;
+}
+
+/*푸터*/
+footer{
+  color:white;
+  background: #A39696;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+footer .container{
+  max-width: 1000px;
+  margin: auto;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+footer .container .left{
+  flex: 1
+}
+
+footer .container .left h1{
+  margin: 0;
+}
+
+footer .container .left p{
+  margin: 0;
+  font-size: 10px;
+}
+
+footer .container .left .sns{
+  margin-top: 30px;
+}
+
+footer .container .left .sns i{
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+footer .container .right{
+  flex:3;
+  padding-left:50px;
+}
+footer .container .right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .container .right .list{
+  flex:1;
+  margin-left: 20px;
+}
+
+footer .container .right .list .h2{
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom:1px solid white;
+}
+
+footer .container .right .list ul{
+  list-style: none;
+  padding: 0;
+}
+footer .container .right .list ul li{
+  padding: 5px 5px;
+}
+footer .container .right .list .ul li:hover{
+  background: #222;
+}
+footer .copy_right{
+  text-align: center;
+}
+
+footer .copy_right p{
+  font-size: 10px;
+  margin: 0;
+}

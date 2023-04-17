@@ -1,0 +1,136 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #CBD0D8  , #C2B4D6  , #A0D3F9);
+  /* background-image: linear-gradient(to right,#9F4298  , #D1AFD3 , #E6E7E8); */
+
+  /* background-color: #f9a825; */
+  /* background-color: antiquewhite; */
+  /* background-image: url(images/main.jpg);
+  background-size: 100% 900px; */
+}
+
+/* navbar */
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  background-image: linear-gradient(to right, #CBD0D8  , #C2B4D6  , #A0D3F9);
+  /* background-color: #a79f95; */
+  padding: 8px 12px;
+}
+
+.navbar_logo{
+  width: 40px;
+  height: 40px;
+  margin-left: 70px;
+}
+
+.navbar_menu{
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.navbar_menu li{
+  padding: 8px 50px;
+}
+
+.navbar_menu li:hover{
+  background-color: #d49466;
+  border-radius: 12px;
+}
+
+.navbar_icons li:hover{
+  background-color: black;
+  border-radius: 10px;
+}
+
+.navbar_icons{
+  list-style: none;
+  color: white;
+  display: flex;
+  padding-right: 70px;
+}
+
+.navbar_icons li{
+  padding: 8px 12px;
+}
+
+/* main */
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.wrtire{
+  color: black;
+  display: flex;
+  display: inline;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.main-write1{
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/* card */
+
+.container{
+  text-align: center;
+  /* margin: 200px; */
+}
+
+.card-box{
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 280px;
+  height: 360px;
+  box-shadow: 0 20px 35px rgba(0,0,0,0.26);
+}
+
+.img-gradient{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+  z-index: 1;
+}
+
+.text-wrap{
+  position: absolute;
+  bottom: 0;
+  padding: 24px;
+  z-index: 2;
+  text-align: left;
+  margin-bottom: 200px;
+}
+
+.intro {
+  color: #fff;
+  /* margin-bottom: 220px; */
+  margin-left: 30px;
+}
+
+.text-wrap p{
+  color: #fff;
+  line-height: 1.5;
+  margin: 0;
+}

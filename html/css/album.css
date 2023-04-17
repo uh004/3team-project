@@ -1,0 +1,154 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #CBD0D8  , #C2B4D6  , #A0D3F9);
+}
+
+/* navbar */
+
+.navbar{
+  /* line-height: 60px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  background-image: linear-gradient(to right, #CBD0D8  , #C2B4D6  , #A0D3F9);
+  /* background-color: #a79f95; */
+  padding: 8px 12px;
+  /* padding-bottom: 50px; */
+}
+
+.navbar_logo{
+  width: 40px;
+  height: 40px;
+  margin-left: 70px;
+}
+
+.navbar_menu{
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.navbar_menu li{
+  padding: 8px 50px;
+}
+
+.navbar_menu li:hover{
+  background-color: #d49466;
+  border-radius: 12px;
+}
+
+.navbar_icons li:hover{
+  background-color: black;
+  border-radius: 10px;
+}
+
+.navbar_icons{
+  list-style: none;
+  color: white;
+  display: flex;
+  padding-right: 70px;
+}
+
+.navbar_icons li{
+  padding: 8px 12px;
+}
+
+/* list_wrap */
+
+ul, li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.list_wrap{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+
+.list_wrap ul{
+  font-size: 0;
+}
+
+.list_wrap .item{
+  display: inline-block;
+  width: 30%;
+  margin-top: 40px;
+  margin-left: 5%;
+  box-shadow: 0px 0px 5px rgba(0,0,0, 0.2);
+}
+
+.list_wrap .item:nth-child(-n+3){
+  margin-top: 0;
+}
+
+
+.list_wrap .item:nth-child(3n-2){
+  margin-left: 0;
+}
+
+
+.list_wrap .item .image{
+  width: 100%;
+  height: 160px;
+  background-color: #ddd;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.list_wrap .item1 .image{ background-image: url(../images/동양미래메인이미지.jpg); }
+.list_wrap .item2 .image{ background-image: url(../images/동양미래메인이미지.jpg); }
+.list_wrap .item3 .image{ background-image: url(../images/동양미래메인이미지.jpg); }
+.list_wrap .item4 .image{ background-image: url(../images/동양미래메인이미지.jpg); }
+.list_wrap .item5 .image{ background-image: url(../images/동양미래메인이미지.jpg); }
+.list_wrap .item6 .image{ background-image: url(../images/동양미래메인이미지.jpg); }
+.list_wrap .item7 .image{ background-image: url(../images/동양미래메인이미지.jpg); }
+.list_wrap .item8 .image{ background-image: url(../images/동양미래메인이미지.jpg); }
+.list_wrap .item9 .image{ background-image: url(../images/동양미래메인이미지.jpg); }
+
+.list_wrap .item .cont{
+  padding: 20px;
+}
+
+.list_wrap .item strong{
+  display: block;
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  letter-spacing: -1px;
+}
+
+.list_wrap .item p{
+  font-size: 13px;
+  letter-spacing: -1px;
+}
+
+.list_wrap .item a{
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background: #eee;
+  font-size: 13px;
+  letter-spacing: -1px;
+  transition: all 1s ease;
+}
+
+.list_wrap .item a:hover{
+  background: #325cb2;
+  color: #fff;
+}
+
+.header{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
